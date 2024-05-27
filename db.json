@@ -1,189 +1,83 @@
 {
-    "provinces":[
+    "cities": [
         {
             "id": 1,
             "name": "تهران",
-            "code": "11"
+            "provinceId": 1
         },
         {
             "id": 2,
-            "name": "بوشهر",
-            "code": "95"
+            "name": "عسلویه",
+            "provinceId": 2
         },
         {
             "id": 3,
-            "name": "چهار محال و بختیاری",
-            "code": "77"
+            "name": "شهرکرد",
+            "provinceId": 3
         },
         {
             "id": 4,
             "name": "اصفهان",
-            "code": "21"
+            "provinceId": 4
         },
         {
             "id": 5,
-            "name": "مرکزی",
-            "code": "51"
+            "name": "آستانه  (مرکزی )",
+            "provinceId": 5
+        }
+    ],
+    "proviences": [
+        [
+            {
+                "id": 1,
+                "name": "تهران"
+            },
+            {
+                "id": 2,
+                "name": "بوشهر"
+            },
+            {
+                "id": 3,
+                "name": "چهار محال و بختیاری"
+            },
+            {
+                "id": 4,
+                "name": "اصفهان"
+            },
+            {
+                "id": 5,
+                "name": "مرکزی"
+            }
+        ]
+    ],
+    "services": [
+        {
+            "image": "https://placehold.co/600x400?text=tehran",
+            "originCity": "تبریز",
+            "destinationCity": "تهران",
+            "price": 150000,
+            "dateTime": "2024-12-15T15:10"
         },
         {
-            "id": 6,
-            "name": "سیستان و بلوچستان",
-            "code": "61"
+            "image": "https://placehold.co/600x400?text=zanjan",
+            "originCity": "تبریز",
+            "destinationCity": "زنجان",
+            "price": 320000,
+            "dateTime": "2024-07-15T03:15"
         },
         {
-            "id": 7,
-            "name": "کرمان",
-            "code": "45"
+            "image": "https://placehold.co/600x400?text=gorgan",
+            "originCity": "تبریز",
+            "destinationCity": "گرگان",
+            "price": 450000,
+            "dateTime": "2024-05-15T12:22"
         },
         {
-            "id": 8,
-            "name": "فارس",
-            "code": "41"
-        },
-        {
-            "id": 9,
-            "name": "اردبیل",
-            "code": "91"
-        },
-        {
-            "id": 10,
-            "name": "آذربایجان شرقی",
-            "code": "26"
-        },
-        {
-            "id": 11,
-            "name": "لرستان",
-            "code": "81"
-        },
-        {
-            "id": 12,
-            "name": "خراسان رضوی",
-            "code": "31"
-        },
-        {
-            "id": 13,
-            "name": "خوزستان",
-            "code": "36"
-        },
-        {
-            "id": 14,
-            "name": "یزد",
-            "code": "93"
-        },
-        {
-            "id": 15,
-            "name": "هرمزگان",
-            "code": "64"
-        },
-        {
-            "id": 16,
-            "name": "سمنان",
-            "code": "87"
-        },
-        {
-            "id": 17,
-            "name": "ایلام",
-            "code": "83"
-        },
-        {
-            "id": 18,
-            "name": "خراسان جنوبی",
-            "code": "33"
-        },
-        {
-            "id": 19,
-            "name": "همدان",
-            "code": "75"
-        },
-        {
-            "id": 20,
-            "name": "کهگیلویه و بویراحمد",
-            "code": "85"
-        },
-        {
-            "id": 21,
-            "name": "قم",
-            "code": "14"
-        },
-        {
-            "id": 22,
-            "name": "خراسان شمالی",
-            "code": "32"
-        },
-        {
-            "id": 23,
-            "name": "کرمانشاه",
-            "code": "71"
-        },
-        {
-            "id": 24,
-            "name": "البرز",
-            "code": "18"
-        },
-        {
-            "id": 25,
-            "name": "گلستان",
-            "code": "97"
-        },
-        {
-            "id": 26,
-            "name": "مازندران",
-            "code": "16"
-        },
-        {
-            "id": 27,
-            "name": "گیلان",
-            "code": "54"
-        },
-        {
-            "id": 28,
-            "name": "زنجان",
-            "code": "67"
-        },
-        {
-            "id": 29,
-            "name": "قزوین",
-            "code": "15"
-        },
-        {
-            "id": 30,
-            "name": "آذربایجان غربی",
-            "code": "57"
-        },
-        {
-            "id": 31,
-            "name": "کردستان",
-            "code": "73"
-        },
-        {
-            "id": 32,
-            "name": "ترکیه",
-            "code": "01"
-        },
-        {
-            "id": 33,
-            "name": "عراق",
-            "code": "02"
-        },
-        {
-            "id": 34,
-            "name": "جمهوری آذربایجان",
-            "code": "03"
-        },
-        {
-            "id": 35,
-            "name": "گرجستان",
-            "code": "04"
-        },
-        {
-            "id": 36,
-            "name": "ارمنستان",
-            "code": "05"
-        },
-        {
-            "id": 37,
-            "name": "افغانستان",
-            "code": "06"
+            "image": "https://placehold.co/600x400?text=hamedan",
+            "originCity": "تبریز",
+            "destinationCity": "همدان",
+            "price": 89000,
+            "dateTime": "2024-06-15T16:15"
         }
     ]
 }
